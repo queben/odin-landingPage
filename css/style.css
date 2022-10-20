@@ -1,0 +1,22 @@
+body, .header, .second, .third, .fourth {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
