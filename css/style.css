@@ -6,9 +6,26 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, footer {
     flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 0 55px 55px 55px;
+    gap: 40px;
+    font-size: 18px;
 }
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.leftHeader h1 {
+    font-size: 48px; 
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
 
 .nav {
     display: flex;
@@ -19,4 +36,20 @@ ul {
     display: flex;
     gap: 15px;
     list-style: none;
+}
+
+.headerDescription {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 7px 21px;
+    border: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
 }
