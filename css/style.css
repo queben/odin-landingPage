@@ -4,9 +4,11 @@ body, .header, .second, .third, .fourth {
 
 body {
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
-.header, footer {
+.header {
     flex-direction: column;
     background-color: #1F2937;
     color: #E5E7EB;
@@ -24,8 +26,9 @@ body {
     font-size: 48px; 
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding: 0;
+    margin-bottom: 0;
 }
-
 
 .nav {
     display: flex;
@@ -52,6 +55,7 @@ button {
     color: #E5E7EB;
     font-weight: bold;
     font-size: 18px;
+    margin-top: 13px;
 }
 
 .second {
@@ -84,4 +88,80 @@ button {
     flex-direction: column;
     align-items: center;
     width: 200px;
+    text-align: center;
+    gap: 10px;
+}
+
+.imgBox img {
+    border-style: solid;
+    border-radius: 12px;
+    border-spacing: 5px;
+    padding: 15px;
+    border-color: #3882F6;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quoteBox {
+    color: #1F2937;
+    font-size: 36px light;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 150px;
+}
+
+.callBox {
+    background-color: #3882F6;
+    padding: 45px 135px;
+    border-radius: 15px;
+    display: flex;
+    gap: 125px;
+}
+
+.callBox button {
+    border: 2px solid black;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+}
+
+.callText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.callText h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+    padding: 35px;
 }
